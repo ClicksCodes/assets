@@ -4,7 +4,7 @@ This file changes all SVGs in the CWD to remove colons from non-urls. This is us
 import os
 import re
 
-for root, dirs, files in os.walk("assets"):
+for root, dirs, files in os.walk("/"):
     for file in files:
         if file.endswith(".svg"):
             with open(os.path.join(root, file)) as f:
