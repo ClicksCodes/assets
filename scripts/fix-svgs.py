@@ -1,10 +1,10 @@
 """
-This file changes all SVGs in the root directory to remove colons from non-urls. This is useful because in chromium-based browsers there is a bug where embedded SVG IDs cannot contain colons or everything will break
+This file changes all SVGs in the main directory to remove colons from non-urls. This is useful because in chromium-based browsers there is a bug where embedded SVG IDs cannot contain colons or everything will break
 """
 import os
 import re
 
-for root, dirs, files in os.walk("/"):
+for root, dirs, files in os.walk("."):
     for file in files:
         print(f"Scanning {file}")
         if file.endswith(".svg"):
