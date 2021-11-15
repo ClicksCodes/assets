@@ -9,8 +9,11 @@ for root, dirs, files in os.walk("."):
         print(f"Scanning {file}")
         if file.endswith(".svg"):
             with open(os.path.join(root, file)) as f:
-                svg = f.read()
-                svg = re.sub(r':(?!\/)', "", svg)
+                old = f.read()
+                svg = re.sub(r':(?!\/)', "", old)
+                if old == svg:
+                    print(f"Nothing to fix in {file}, skipped")
+                    continue
             with open(os.path.join(root, file), "w") as f:
                 f.write(svg)
             print(f"Successfully fixed {file}")
