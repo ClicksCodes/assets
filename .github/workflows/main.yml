@@ -1,0 +1,22 @@
+name: Run build scripts & publish to GitHub Pages
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v1
+
+      - name: Fix SVG files
+        run: python3 ./scripts/fix-svgs.py
+
+      - name: Publish generated content to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: /
