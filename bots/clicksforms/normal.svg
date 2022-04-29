@@ -1,11 +1,1 @@
-<svg width="2048" height="2048" viewBox="0 0 2048 2048" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="2048" height="2048" fill="url(#paint0_linear_1400:2879)"/>
-<rect x="547" y="547" width="954" height="954" rx="152.885" stroke="white" stroke-width="121.684"/>
-<path d="M748.808 1024L889.027 1164.22C912.909 1188.1 951.629 1188.1 975.511 1164.22L1299.19 840.538" stroke="white" stroke-width="121.684" stroke-linecap="round" stroke-linejoin="round"/>
-<defs>
-<linearGradient id="paint0_linear_1400:2879" x1="2048" y1="0" x2="0" y2="2048" gradientUnits="userSpaceOnUse">
-<stop stop-color="#6576CC"/>
-<stop offset="1" stop-color="#775EBF"/>
-</linearGradient>
-</defs>
-</svg>
+<svg width="2048" height="2048" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="url(#a)" d="M0 0h2048v2048H0z"/><rect x="547" y="547" width="954" height="954" rx="152.885" stroke="#fff" stroke-width="121.684"/><path d="m748.808 1024 140.219 140.22c23.882 23.88 62.602 23.88 86.484 0l323.679-323.682" stroke="#fff" stroke-width="121.684" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="a" x1="2048" y1="0" x2="0" y2="2048" gradientUnits="userSpaceOnUse"><stop stop-color="#6576CC"/><stop offset="1" stop-color="#775EBF"/></linearGradient></defs></svg>
