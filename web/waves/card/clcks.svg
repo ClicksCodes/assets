@@ -1,1 +1,9 @@
-<svg width="529" height="185" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m.104 63.705 17.742 8.252c17.33 7.84 52.815 23.519 87.887 31.358 35.072 8.253 70.556 8.253 105.628-10.315 35.072-18.567 70.557-55.702 105.629-60.654 35.072-5.364 70.556 21.044 105.628 21.044s70.557-26.408 87.886-39.611L528.247.575v183.819H.104V63.704Z" fill="url(#a)"/><defs><linearGradient id="a" x1=".104" y1="184.394" x2="528.247" y2="184.394" gradientUnits="userSpaceOnUse"><stop stop-color="#71AFE5"/><stop offset="1" stop-color="#78ECF2"/></linearGradient></defs></svg>
+<svg width="528" height="184" viewBox="0 0 528 184" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 63.3112L17.7423 71.5634C35.072 79.403 70.5566 95.0822 105.629 102.922C140.7 111.174 176.185 111.174 211.257 92.6066C246.329 74.0391 281.814 36.904 316.886 31.9527C351.958 26.5887 387.442 52.9959 422.514 52.9959C457.586 52.9959 493.071 26.5887 510.4 13.3852L528 0V184H510.4C493.071 184 457.586 184 422.514 184C387.442 184 351.958 184 316.886 184C281.814 184 246.329 184 211.257 184C176.185 184 140.7 184 105.629 184C70.5566 184 35.072 184 17.7423 184H0V63.3112Z" fill="url(#paint0_linear_2629_5543)"/>
+<defs>
+<linearGradient id="paint0_linear_2629_5543" x1="0.104004" y1="183.394" x2="528.247" y2="183.394" gradientUnits="userSpaceOnUse">
+<stop stop-color="#71AFE5"/>
+<stop offset="1" stop-color="#78ECF2"/>
+</linearGradient>
+</defs>
+</svg>
